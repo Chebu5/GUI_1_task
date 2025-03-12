@@ -6,6 +6,9 @@ namespace WinFormsApp1
         public Form1()
         {
             InitializeComponent();
+            SideA.Text = Properties.Settings.Default.a.ToString();
+            SideB.Text = Properties.Settings.Default.b.ToString();
+            SideC.Text = Properties.Settings.Default.c.ToString();
             SideA.KeyDown += new KeyEventHandler(TextBox_KeyDown);
             SideB.KeyDown += new KeyEventHandler(TextBox_KeyDown);
             SideC.KeyDown += new KeyEventHandler(TextBox_KeyDown);
@@ -38,7 +41,6 @@ namespace WinFormsApp1
             var message = Logic.Check(a, b, c);
             label4.Text = message;
             label4.Visible = true;
-            //MessageBox.Show(message);
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -46,6 +48,7 @@ namespace WinFormsApp1
             SideA.Text = null;
             SideB.Text = null;
             SideC.Text = null;
+            label4.Text = null;
         }
         private void TextBox_KeyDown(object sender, KeyEventArgs e)
         {

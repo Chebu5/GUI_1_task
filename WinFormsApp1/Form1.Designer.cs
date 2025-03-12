@@ -43,7 +43,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(156, 38);
+            label1.Location = new Point(13, 43);
             label1.Name = "label1";
             label1.Size = new Size(122, 20);
             label1.TabIndex = 0;
@@ -52,7 +52,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(156, 85);
+            label2.Location = new Point(16, 106);
             label2.Name = "label2";
             label2.Size = new Size(119, 20);
             label2.TabIndex = 1;
@@ -61,7 +61,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(156, 141);
+            label3.Location = new Point(16, 153);
             label3.Name = "label3";
             label3.Size = new Size(117, 20);
             label3.TabIndex = 2;
@@ -69,21 +69,21 @@
             // 
             // SideA
             // 
-            SideA.Location = new Point(13, 31);
+            SideA.Location = new Point(150, 43);
             SideA.Name = "SideA";
             SideA.Size = new Size(125, 27);
             SideA.TabIndex = 3;
             // 
             // SideB
             // 
-            SideB.Location = new Point(13, 82);
+            SideB.Location = new Point(150, 99);
             SideB.Name = "SideB";
             SideB.Size = new Size(125, 27);
             SideB.TabIndex = 4;
             // 
             // SideC
             // 
-            SideC.Location = new Point(13, 138);
+            SideC.Location = new Point(150, 150);
             SideC.Name = "SideC";
             SideC.Size = new Size(125, 27);
             SideC.TabIndex = 5;
